@@ -12,15 +12,15 @@ alert('Link berhasil disalin');
 
 function shareWhatsApp() {
 const url = window.location.href;
-window.open(`https://otieu.com/4/9911821=${url}`, '_blank');
+window.open(`https://otieu.com/4/10181511=${url}`, '_blank');
 }
 
 
 function shareTelegram() {
 const url = window.location.href;
-window.open(`https://otieu.com/4/9911821=${url}`, '_blank');
+window.open(`https://otieu.com/4/10181511=${url}`, '_blank');
 }
-const targetLink = "https://otieu.com/4/9911821"; // GANTI LINK
+const targetLink = "https://otieu.com/4/10181511"; // GANTI LINK
 
 const video = document.getElementById("video");
 
@@ -29,5 +29,6 @@ video.addEventListener("play", () => {
         window.location.href = targetLink;
     }, 2000); // 2 detik
 });
+
 
 
